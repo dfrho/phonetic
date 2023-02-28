@@ -16,7 +16,7 @@ function PhoneticValueRetriever() {
       .then((response) => response.json())
       .then((data) => {
         console.log('🚀 ~ file: App.js:18 ~ .then ~ data:', data);
-        const phoneticValue = data[0].phonetics[1].text;
+        const phoneticValue = data[0].phonetic || data[0].phonetics[1].text;
         setPhoneticValue(phoneticValue);
       })
       .catch((error) => {
