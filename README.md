@@ -1,6 +1,10 @@
 # 🎧 Phonetic Overview
 
-This simple React component defines a state for the word entered in the search field and the phonetic value of that word. It also defines two functions,<b>handleInputChange</b>  and <b>handleFormSubmit</b>, to handle changes to the search field and form submission, respectively. The fetch function is used to make an HTTP GET request to the API and extract the phonetic value from the JSON response. Finally, the phonetic value is displayed in the component if it exists.
+This simple React component defines a state for the word entered in the search field and the phonetic value of that word. It also defines two functions, <b>handleInputChange</b> and <b>handleFormSubmit</b>, to handle changes to the search field and form submission, respectively. The fetch function is used to make an HTTP GET request to the API and extract the phonetic value from the JSON response.
+
+Finally, the phonetic value is displayed in the component if it exists.
+
+[Deployed on Netlify])(https://spiffy-cat-e4c419.netlify.app/)
 
 # Built with with Create React App
 
