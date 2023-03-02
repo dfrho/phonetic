@@ -4,7 +4,7 @@ This simple React component defines a state for the word entered in the search f
 
 Finally, the phonetic value is displayed in the component if it exists.
 
-[Deployed on Netlify])(https://spiffy-cat-e4c419.netlify.app/)
+[Live Site](https://spiffy-cat-e4c419.netlify.app/)
 
 # Built with with Create React App
 
